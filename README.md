@@ -1,6 +1,8 @@
 # cartoon,coda project
-<ul>
-  <li><a href="https://github.com/regiscoda30/cartoon/wiki"> Le wiki du projet</a></li>
-  <li><a href="https://htmlpreview.github.io/?https://github.com/regiscoda30/cartoon/blob/MathieuCoynet-patch-1/index.html">Ici  une vue      beta du projet</a></li>
-  <li><a href="https://github.com/regiscoda30/cartoon/blob/master/script.sh">Le script du bon Flo (Meg4Rom)!</a></li>
+<ul> 
+<h4>Sommaire des branches:</h4>
+     
+        <li><a href="https://github.com/regiscoda30/cartoon">Branche Master</a></li>
+        <li><a href="https://github.com/regiscoda30/cartoon/tree/MathieuCoynet-patch-1">Branche 2</a></li>
+        <li><a href="***">Branche X</a></li>
 </ul>
