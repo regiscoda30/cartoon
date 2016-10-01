@@ -7,7 +7,7 @@ body
   	height: 100em;
   	border-width: 10px;
 	border-style: outset;
-	border-color: red;
+	border-color: black;
 	margin: 0;
 }
 
@@ -17,11 +17,11 @@ body
 	width:90em;
 	height:90em;
 	
-	transform: translateZ;
-	border-width: 5px;
+	transform: translateZ(5px);
+	border-width: 10px;
 	border-style: outset;
 	border-color: grey;
-	background-image: url(../img/xp.jpg);
+	background-image: url("./img/xp.jpg");
 	margin: 20px;
 
 }
@@ -75,3 +75,25 @@ body
 	transform: translateZ(200px);
 
 }
+
+
+footer {
+    margin-top:141px;
+    width: 94%;
+  height: 100%;
+  padding: 50px ;
+  text-align: right;
+  color:white;
+  background-color: #222;
+ 
+}
+#button{
+    background-color: #222;
+    border: none;
+    
+}
+#logo{
+    background-color: #222;
+    border: none;
+    width: 100px;
+    margin: 30px;
