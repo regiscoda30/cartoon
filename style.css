@@ -9,6 +9,8 @@ body
 	border-style: outset;
 	border-color: black;
 	margin: 0;
+	background-color: #BDBDBD;
+	opacity:0,4;
 }
 
 #bureau{
@@ -23,6 +25,7 @@ body
 	border-color: grey;
 	background-image: url("./xp2.jpg");
 	margin: 20px;
+	background-color: white;
 
 }
 
