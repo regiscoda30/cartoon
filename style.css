@@ -103,7 +103,10 @@ body{
 }
 /* Footer avec logos réseaus sociaux, logos partenaires et copyright*/
 footer {
-    
+    position: relative;
+   height: auto;
+   width: auto;
+   bottom: 0px;
   color:white;
   background-color: #222;
  
@@ -115,6 +118,11 @@ footer {
 }
 #logo{
     background-color: #222;
-    border: none;
     width: 100px;
     margin: 30px;
+    bottom: center;
+}
+#logo1{
+    height: 100px;
+    bottom:left; 
+}
