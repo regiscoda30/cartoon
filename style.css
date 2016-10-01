@@ -2,6 +2,14 @@ body{
 	
 }
 
+#hidden{
+	
+}
+
+
+/* Ici, on vient chercher notre ecran de l'ordi*/
+
+
 #corp{
     perspective: 800px;
     perspective-origin: top left;
@@ -15,6 +23,7 @@ body{
 	background-color: #BDBDBD;
 	opacity:0,4;
 }
+/* Creation de la box bureau dans l'ecran */
 
 #bureau{
 	
@@ -26,12 +35,13 @@ body{
 	border-width: 10px;
 	border-style: outset;
 	border-color: #848484;
-	background-image: url(ales4.jpg);
+	background-image: url("./img/xp.jpg");
 	margin: 20px;
+	background-color: white;
 
 }
 
-
+/* Ici les cadres des icônes de bureau*/
 
 #icone1{ 
 	width: 50px;
@@ -69,7 +79,7 @@ body{
 	background-color: #F2F2F2;
  }
 
-
+/* On delimite la boite "fenetre" */
 #page {
 	width: 30em;
 	height: 20em;
@@ -81,12 +91,19 @@ body{
 
 }
 
+/*Barre de nav à la windows avec menu réroulant, programe "dejà ouvert" */
+#navWin {
+	
 
+}
+
+.menu{
+	
+
+}
+/* Footer avec logos réseaus sociaux, logos partenaires et copyright*/
 footer {
-    position: relative;
-   height: auto;
-   width: auto;
-   bottom: 0px;
+    
   color:white;
   background-color: #222;
  
@@ -98,11 +115,6 @@ footer {
 }
 #logo{
     background-color: #222;
+    border: none;
     width: 100px;
     margin: 30px;
-    bottom: center;
-}
-#logo1{
-    height: 100px;
-    bottom:left; 
-}
