@@ -1,0 +1,77 @@
+body
+{
+    perspective: 800px;
+    perspective-origin: top left;
+    display: absolute;
+  	width: 100em;
+  	height: 100em;
+  	border-width: 10px;
+	border-style: outset;
+	border-color: red;
+	margin: 0;
+}
+
+#bureau{
+	
+	display: flex;
+	width:90em;
+	height:90em;
+	
+	transform: translateZ;
+	border-width: 5px;
+	border-style: outset;
+	border-color: grey;
+	background-image: url(../img/xp.jpg);
+	margin: 20px;
+
+}
+
+
+
+#icone1{ 
+	width: 50px;
+	height: 50px;
+	border-width: 5px;
+	border-style: outset;
+	border-color: black;
+	background-color: #F2F2F2;
+ }
+
+#icone2{ 
+	width: 50px;
+	height: 50px;
+	border-width: 5px;
+	border-style: outset;
+	border-color: black;
+	background-color: #F2F2F2;
+ }
+
+ #icone3{ 
+	width: 50px;
+	height: 50px;
+	border-width: 3px;
+	border-style: outset;
+	border-color: black;
+	background-color: #F2F2F2;
+ }
+
+ #icone4{ 
+	width: 50px;
+	height: 50px;
+	border-width: 3px;
+	border-style: outset;
+	border-color: black;
+	background-color: #F2F2F2;
+ }
+
+
+#page {
+	width: 30em;
+	height: 20em;
+	border-width: 3px;
+	border-style: outset;
+	border-color: black;
+	background-color: #F2F2F2;
+	transform: translateZ(200px);
+
+}
