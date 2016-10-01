@@ -1,6 +1,6 @@
 # cartoon,coda project
 <ul>
-  <li><a href="https://github.com/regiscoda30/cartoon/wiki"> Le wiki du projet:</a>
+  <li><h5> Le wiki du projet:</h5>
      <ol>
      <li><a href="https://github.com/regiscoda30/cartoon/wiki">Page 1</a></li>
      <li><a href="https://github.com/regiscoda30/cartoon/wiki/Check-list:">CheckList</a></li>
