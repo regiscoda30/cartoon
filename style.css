@@ -22,7 +22,7 @@ body
 	transform: translateZ(5px);
 	border-width: 10px;
 	border-style: outset;
-	border-color: grey;
+	border-color: #848484;
 	background-image: url("./xp2.jpg");
 	margin: 20px;
 	background-color: white;
