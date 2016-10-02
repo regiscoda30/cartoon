@@ -1,0 +1,186 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#hidden{
+	
+}
+
+
+/* Ici, on vient chercher notre ecran de l'ordi*/
+
+
+#corp{
+    perspective: 800px;
+    perspective-origin: top left;
+    display: absolute;
+  	width: 100em;
+  	height: 100em;
+  	border-width: 10px;
+	border-style: outset;
+	border-color: black;
+	margin: 0;
+	background-color: #BDBDBD;
+	opacity:0,4;
+}
+/* Creation de la box bureau dans l'ecran */
+
+#bureau{
+	
+	display: flex;
+	width:90em;
+	height:90em;
+	
+	transform: translateZ(5px);
+	border-width: 10px;
+	border-style: outset;
+	border-color: #848484;
+	background-image: url(ales4.jpg);
+	margin: 20px;
+
+}
+
+/* Ici les cadres des icônes de bureau*/
+
+#icone1{ 
+	width: 50px;
+	height: 50px;
+	border-width: 5px;
+	border-style: outset;
+	border-color: black;
+	background-color: #F2F2F2;
+ }
+
+#icone2{ 
+	width: 50px;
+	height: 50px;
+	border-width: 5px;
+	border-style: outset;
+	border-color: black;
+	background-color: #F2F2F2;
+ }
+
+ #icone3{ 
+	width: 50px;
+	height: 50px;
+	border-width: 3px;
+	border-style: outset;
+	border-color: black;
+	background-color: #F2F2F2;
+ }
+
+ #icone4{ 
+	width: 50px;
+	height: 50px;
+	border-width: 3px;
+	border-style: outset;
+	border-color: black;
+	background-color: #F2F2F2;
+ }
+
+/* On delimite la boite "fenetre" */
+#page {
+	width: 30em;
+	height: 20em;
+	border-width: 3px;
+	border-style: outset;
+	border-color: black;
+	background-color: #F2F2F2;
+	transform: translateZ(200px);
+
+}
+
+/*Barre de nav à la windows avec menu réroulant, programe "dejà ouvert" */
+#navWin {
+	
+
+}
+
+.menu{
+	
+
+}
+/* Footer avec logos réseaus sociaux, logos partenaires et copyright*/
+footer {
+
+    
+   height: auto;
+   width: 106.2%;
+   bottom: 0;
+  color:white;
+  background-color: #222;
+ 
+}
+#button{
+    background-color: #222;
+    border: none;
+    margin-left: 500px;
+
+    
+}
+#logo{
+    background-color: #222;
+    width: 100px;
+    margin: 30px;
+    bottom: center;
+}
+#logo1{
+	padding-left: 196px;
+   width: 100px;
+   margin: 0px;
+    bottom:left; 
+}
+/* Texte défilant */
+
+.defileParent { 
+	display: block;
+	margin: 3em;
+	overflow: hidden;
+	position: absolute;bottom: -3em;
+	table-layout: fixed;
+	width: 800px;
+}
+.defile {
+	display:block;
+	-webkit-animation:linear marqueelike 20s infinite ;
+	-moz-animation:linear marqueelike 20s infinite ;
+	-o-animation:linear marqueelike 20s infinite ;
+	-ms-animation:linear marqueelike 20s infinite ;
+	animation:linear marqueelike 20s infinite ;
+	margin-left:-100%;
+	padding:0 5px;
+	text-align:left;
+	height:30px;
+}
+
+
+.defile:after {
+	content:attr(data-text);
+	position:absolute;
+	white-space:nowrap;
+	padding-left:10px;
+
+}
+
+@-webkit-keyframes marqueelike {
+	0%, 100% {margin-left:0;}
+	99.99% {margin-left:-75%;}
+ }
+@-moz-keyframes marqueelike {
+	0%, 100% {margin-left:0;}
+	99.99% {margin-left:-75%;}
+ }
+@-o-keyframes marqueelike {
+	0%, 100% {margin-left:0;}
+	99.99% {margin-left:-75%;}
+ }
+@-ms-keyframes marqueelike {
+	0%, 100% {margin-left:0;}
+	99.99% {margin-left:-75%;}
+ }
+@keyframes marqueelike {
+	0%, 100% {margin-left:0;}
+	99.99% {margin-left:-75%;}
+ }
