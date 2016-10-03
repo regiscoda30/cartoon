@@ -1,77 +1,178 @@
-body
-{
-    perspective: 800px;
-    perspective-origin: top left;
-    display: absolute;
-  	width: 100em;
-  	height: 100em;
-  	border-width: 10px;
-	border-style: outset;
-	border-color: red;
+* {
 	margin: 0;
-}
-
-#bureau{
-	
-	display: flex;
-	width:90em;
-	height:90em;
-	
-	transform: translateZ;
-	border-width: 5px;
-	border-style: outset;
-	border-color: grey;
-	background-image: url(../img/xp.jpg);
-	margin: 20px;
-
+	padding: 0;
 }
 
 
+html {
+  background: url(ales4.jpg) no-repeat center fixed;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+}
 
-#icone1{ 
+body{
+  height: auto;
+  width: auto;
+  font-family: sans-serif;
+}
+
+#blackscreen {
+	position: fixed;
+	height: 89%;
+	width: 100%;
+	background-color: black;
+	z-index: 3;
+	display: none;
+}
+
+/* Ici les cadres des icônes de bureau*/
+#image1{
+	width: 90px;
+	position: absolute;
+	top: 20px;
+	left: 10px;
+}
+
+.computer{
+	 text-align: center;
+	 color: white;
+	 font-family: Times;
+	 font-size: 20px;
+}
+
+#icone1{
 	width: 50px;
 	height: 50px;
-	border-width: 5px;
-	border-style: outset;
-	border-color: black;
-	background-color: #F2F2F2;
  }
 
-#icone2{ 
+#image2{
+	width: 90px;
+	position: absolute;
+	top: 120px;
+	left: 10px;
+}
+#icone2{
 	width: 50px;
 	height: 50px;
-	border-width: 5px;
-	border-style: outset;
-	border-color: black;
-	background-color: #F2F2F2;
+
  }
 
- #icone3{ 
+#image3{
+	width: 90px;
+	position: absolute;
+	top: 225px;
+	left: 10px;
+}
+
+ #icone3{
 	width: 50px;
 	height: 50px;
-	border-width: 3px;
-	border-style: outset;
-	border-color: black;
-	background-color: #F2F2F2;
+
  }
 
- #icone4{ 
+#image4{
+	width: 90px;
+	position: absolute;
+	top: 650px;
+	right: 500px;
+}
+ #icone4{
 	width: 50px;
 	height: 50px;
-	border-width: 3px;
-	border-style: outset;
-	border-color: black;
-	background-color: #F2F2F2;
+
  }
 
+/* On delimite la boite "fenetre" */
+ .page {
+ 	width: 50em;
+ 	height: 30em;
+ 	border-width: 3px;
+ 	border-color: black;
+ 	background-color: #F2F2F2;
+ 	position: absolute;
+ 	top: 50px;
+ 	left:500px;
+ 	border-top-left-radius: 5px;
+ 	border-top-right-radius: 5px;
+	border-top: 40px solid #3F3E3A;
+	box-shadow: 6px 6px 6px black;
+}
 
-#page {
-	width: 30em;
-	height: 20em;
-	border-width: 3px;
-	border-style: outset;
-	border-color: black;
-	background-color: #F2F2F2;
-	transform: translateZ(200px);
 
+/*Barre de nav à la windows avec menu réroulant, programe "dejà ouvert" */
+#navWin {
+
+
+}
+
+.menu{
+
+
+}
+/* Footer avec logos réseaus sociaux, logos partenaires et copyright*/
+footer {
+
+	position: absolute;
+	bottom: 0;
+	height: 100px;
+	width: 100%;
+	color:white;
+	background-color: #222;
+	border-bottom: 10px black ridge;
+
+}
+
+#md{
+	position: absolute;
+	height: 50px;
+	width: 100%;
+	bottom: 100px;
+	background-color: grey;
+}
+#button{
+	float: right;
+	margin-top: 7px;
+	margin-right: 40px;
+	width: 50px;
+	background-color: #222;
+	border: none;
+
+}
+#logo{
+    background-color: #222;
+    width: 75px;
+}
+#logo1{
+    width: 75px;
+}
+
+}
+
+#liste {
+   position: absolute;
+   z-index: 1;
+   bottom: 50px;
+   width: 320px;
+   height: 200px;
+   background-color: white;
+}
+
+.liste{
+	display: inline-block;
+}
+button {
+   background-color: grey;
+   margin: 0;
+   border: 0;
+   padding: 0;
+}
+
+button:active {
+   background: url("menu.jpg");
+   transform: translateY(4px)
+   box-shadow: 0 5px #666;
+}
+
+.one:hover {
+   background-color: grey;
 }
