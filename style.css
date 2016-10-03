@@ -87,7 +87,37 @@ body{
  }
 
 /* On delimite la boite "fenetre" */
-#page {
+#page1 {
+	width: 30em;
+	height: 20em;
+	border-width: 3px;
+	border-style: outset;
+	border-color: black;
+	background-color: #F2F2F2;
+	transform: translateZ(200px);
+
+}
+#page2 {
+	width: 30em;
+	height: 20em;
+	border-width: 3px;
+	border-style: outset;
+	border-color: black;
+	background-color: #F2F2F2;
+	transform: translateZ(200px);
+
+}
+#page3 {
+	width: 30em;
+	height: 20em;
+	border-width: 3px;
+	border-style: outset;
+	border-color: black;
+	background-color: #F2F2F2;
+	transform: translateZ(200px);
+
+}
+#page4 {
 	width: 30em;
 	height: 20em;
 	border-width: 3px;
