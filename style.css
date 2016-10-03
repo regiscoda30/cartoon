@@ -5,7 +5,7 @@
 
 
 html {
-  background: url(ales4.jpg) no-repeat center fixed;
+  background: url(ales4-modif.png) no-repeat center fixed;
   -webkit-background-size: cover; /* pour anciens Chrome et Safari */
   background-size: cover; /* version standardisée */
 }
@@ -100,18 +100,26 @@ body{
 
 
 /*Barre de nav à la windows avec menu réroulant, programe "dejà ouvert" */
-#navWin {
+.one{
+    width: 43px;
+}
 
+#liste {
+    position: absolute;
+    z-index: 1;
+    bottom: 55px;
+    width: 320px;
+    height: 200px;
+    background-color: #222222;
+		border-top-left-radius: 5px;
+	  border-top-right-radius: 5px;
+		box-shadow: 6px 3px 6px black;
 
 }
 
-.menu{
 
-
-}
 /* Footer avec logos réseaus sociaux, logos partenaires et copyright*/
 footer {
-
 	position: absolute;
 	bottom: 0;
 	height: 100px;
@@ -142,9 +150,7 @@ footer {
     background-color: #222;
     width: 75px;
 }
-#logo1{
-    width: 75px;
-}
+
 
 }
 

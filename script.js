@@ -3,6 +3,7 @@
 $(document).ready(function(){
 
 	$("#liste").hide();
+	$(".page").hide();
 
 
 	//Fonction des icones "quand l'un est ouvert, les autres sont fermé"
@@ -10,7 +11,7 @@ $(document).ready(function(){
 
 		
 		 $(".page").hide();
-			$("#page1").toggle(2500);
+			$("#page1").fadeToggle(1000);
 
 });
 
@@ -18,32 +19,32 @@ $(document).ready(function(){
 
 		
 		 $(".page").hide();
-			$("#page2").toggle(2500);
+			$("#page2").fadeToggle(1000);
 });
 
 	$("#icone3").click(function(){
 
 		
 		 $(".page").hide();
-			$("#page3").toggle(2500);
+			$("#page3").fadeToggle(1000);
 });
 	$("#icone4").click(function(){
 
 		
 		 $(".page").hide();
-			$("#page4").toggle(2500);
+			$("#page4").fadeToggle(1000);
 
 });
 
 	//Fonction "Black Screen"
 	 $("#button").click(function(){
-    	$("#blackscreen").fadeToggle(500);
+    	$("#blackscreen").fadeToggle(1000);
 
 });
 
 	 	
-	 	//Fonction "menu démarré" 	
+	 	//Fonction "menu démarrer" 	
 		$("#1").click(function(){
-			$("#liste").toggle(100);
+			$("#liste").toggle(300);
 	});
 });
