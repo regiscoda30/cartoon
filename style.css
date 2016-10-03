@@ -35,7 +35,7 @@ body{
 
 #bureau{
 	
-	display: flex;
+	display: absolute;
 	width:90em;
 	height:90em;
 	
